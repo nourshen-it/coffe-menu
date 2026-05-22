@@ -6,9 +6,9 @@ html,body{
     padding:0 0 80px;
 	background-image:url(photo_2026-05-18_11-52-29.jpg);
 	color: #3E2F2F;
-	background-size: contain;
-	background-position:top center;
-	background-repeat: fno-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 header{
 	width: 100%;
