@@ -63,13 +63,13 @@ p{  text-align:center;
 	width: 45%;
 }
 nav ul{
-	display: block;
-	margin: 0;
+	display: flex;
+	justify-content: crnter;
+	width:100%;
 	list-style: none;
-	padding:10px 20px;
+	padding:10px 0;
 }
 nav ul li{
-	display: inline-block;
 	margin: 0 10px;
 }
 nav ul li a{
@@ -239,6 +239,13 @@ footer{
 	opacity: 0.9;
 }
 footer small{
-	color: #ffff;
+	color: #ffff;}
+section{
+	width:85%;
+	max-width:500px;
+	margin: 20px auto;
+	padding: 15px;
+	box-sizing: border-box;
+}
 	opacity: 1;
 }
