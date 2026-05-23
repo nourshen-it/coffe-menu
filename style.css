@@ -6,9 +6,10 @@ html,body{
     padding:0 0 80px;
 	background-image:url(photo_2026-05-18_11-52-29.jpg);
 	color: #3E2F2F;
-	background-size: 100% 100%;
+	background-size: cover;
 	background-position: center;
-	background-attachment: scroll;
+	backgroun-reprat: no-repeat;
+	background-attachment: fixed;
 }
 header{
 	width: 100%;
@@ -265,7 +266,9 @@ section{
     }
 	footer{
 		position: relative !important;
-		margin-top: 40px !important;
+		margin-top: 50px !important;
+        width: 100% !important;
+		clear: both !important;
 	}
 }
 	opacity: 1;
