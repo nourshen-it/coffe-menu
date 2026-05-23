@@ -249,7 +249,7 @@ section{
 }
 @media (max-width: 768px) {
     section {
-        width: 85% !important;
+        width: 90% !important;
         max-width: 100% !important;
         margin: 20px auto !important;
         float: none !important; 
@@ -258,10 +258,15 @@ section{
     header, nav, nav ul {
         width: 100% !important;
         padding: 10px 0 !important;
-    }
-    
+		text-align: center;}
     nav ul li {
-        margin: 0 8px !important;
+		display: block !important;
+        margin: 10px 0 !important;
     }
+	footer{
+		position: relative !important;
+		margin-top: 40px !important;
+	}
+}
 	opacity: 1;
 }
