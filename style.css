@@ -14,12 +14,13 @@ html,body{
 header{
 	width: 100%;
 	background-color:#3E2F2F;
-	padding:5px 0px;
+	padding:10px 0px !important;
 	border-radius: 8px;
 	font-size: 19px;
 	color:aliceblue;
 	opacity: 0.9;
 	text-align: center;
+	line-height: 1 !important;
 }
 main{
 	padding-bottom: 100px;
@@ -68,8 +69,8 @@ nav ul{
 	justify-content: center;
 	width:100%;
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 nav ul li{
 	margin: 0 10px;
@@ -78,6 +79,7 @@ nav ul li a{
 	color:#fff;
 	text-decoration: none;
 	padding: 5px 15px;
+	margin: 0 15px;
 }
 caption{
 	font-size: 20px;
@@ -246,8 +248,5 @@ section{
 	width:85%;
 	max-width:500px;
 	margin: 5px auto 20px auto;
-	padding: 15px;
-	box-sizing: border-box;
-}
-	opacity: 1;
-}
+padding: 15px;
+box-sizing: border-box}
